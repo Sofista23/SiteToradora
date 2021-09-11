@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TORADORA - Contato</title>
+    <link rel="stylesheet" href="./CSS/Contato.css">
+    <link rel="icon" type="image/png" href="./imagens/Screenshot_2021-04-17 tigre de bolso - Pesquisa Google.png">
+    <script src="./JS/Contato.js"></script>
+</head>
+<body>
+    <section id="main">
+        <div id="dvCabeça">
+            <header>
+                <img src="./imagens/Screenshot_2021-04-17 tigre de bolso - Pesquisa Google.png " class="logo">
+                <p id="titulo">Contato</p>
+                <ul class="navegation">
+                    <li><a href="Home.htm">Home</a></li>
+                    <li><a href="SaibaMais.htm">Saiba Mais</a></li>
+                    <li><a href="Personagens.htm" >Personagens</a></li>
+                    <li><a href="Contato.htm" id="impot">Contato</a></li>
+                </ul>
+            </header>
+        </div>
+        <div id="formulario">
+            <form name="form1" enctype="multipart/form-data" action="" method="GET">
+                <h1>Entre em Contato Conosco</h1>
+
+                <p class="emailP"><span id="span1">Email:</span> joaop.martins23@bol.com.br</p>
+
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <div id="dadosPessoais">
+                        <label>Nome:</label>
+                        <input type="text" name="nome" id="nome"><br>
+
+                        <label>Email:</label>
+                        <input type="email" name="email" id="email"><br>
+
+                        <label>Telefone:</label>
+                        <input type="tel" pattern="\([0,9]{2}\)[9]{1}[0,9]{3}-[0,9]{4}" placeholder="(xx) 9xxx-xxxx" maxlength="15" name="tel" id="tel">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Assunto</legend>
+                    <div id="assunto">
+                        <input name="a1" type="radio" value="Reclamação">Reclamação
+                        <input name="a1" type="radio" value="Atualização">Atualização
+                        <input name="a1" type="radio" value="Erro">Erro
+                        <input name="a1" type="radio" value="Outros">Outros
+                        <button type="button" id="btn1" onclick="abrir()">Especificar?</button>
+                        <button id="btn2" onclick="fechar()"> X </button><br>
+                        <textarea id="txt1" rows="1"></textarea>
+                    </div>
+                </fieldset>
+                <fieldset class="mBaixo">
+                    <legend>Menssagem</legend>
+                    <textarea></textarea>
+                </fieldset>
+                <button type="submit" id="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
