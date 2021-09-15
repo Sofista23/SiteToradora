@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TORADORA - Personagens</title>
     <link rel="stylesheet" href="./CSS/Indivi.css">
-    <script src="./JS/Indivi.js"></script>
     <script src="./JS/Album.js"></script>
+    <script src="./JS//info.js"></script>
     <link rel="icon" type="image/png" href="./imagens/Screenshot_2021-04-17 tigre de bolso - Pesquisa Google.png">
 </head>
 <body>
@@ -25,18 +25,18 @@
             </header>
         </div>
         <div id="botoes">
-            <button onclick="Taiga()" class="btn" id="btn1">Taiga Aisaka</button>
-            <button onclick="Ryuuji()" class="btn" id="btn2">Ryuuji Takasu</button>
-            <button onclick="Minori()" class="btn" id="btn3">Minori Kushieda</button>
-            <button onclick="Yuusaku()" class="btn" id="btn4">Yuusaku Kitamura</button>
-            <button onclick="Ami()" class="btn" id="btn5">Ami Kawashima</button><br>
-            <button onclick="Yasuko()" class="btn" id="btn6">Yasuko Takasu</button>
-            <button onclick="Sumire()" class="btn" id="btn7">Sumire Kanõ</button>
-            <button onclick="Hisamitsu()" class="btn" id="btn8">Hisamitsu Noto</button>
-            <button onclick="Nanako()" class="btn" id="btn9">Nanako Kashii</button>
-            <button onclick="Maya()" class="btn" id="btn10">Maya Kihara</button><br>
-            <button onclick="Yuri()" class="btn" id="btn11">Yuri Koigakubo</button>
-            <button onclick="Koji()" class="btn" id="btn12">Koji Haruta</button>
+            <button onclick="setPersonagem('Taiga')" class="btn" id="btn1">Taiga Aisaka</button>
+            <button onclick="setPersonagem('Ryuuji')" class="btn" id="btn2">Ryuuji Takasu</button>
+            <button onclick="setPersonagem('Minori')" class="btn" id="btn3">Minori Kushieda</button>
+            <button onclick="setPersonagem('Yuusaku')" class="btn" id="btn4">Yuusaku Kitamura</button>
+            <button onclick="setPersonagem('Ami')" class="btn" id="btn5">Ami Kawashima</button><br>
+            <button onclick="setPersonagem('Yasuko')" class="btn" id="btn6">Yasuko Takasu</button>
+            <button onclick="setPersonagem('Sumire')" class="btn" id="btn7">Sumire Kanõ</button>
+            <button onclick="setPersonagem('Hisamitsu')" class="btn" id="btn8">Hisamitsu Noto</button>
+            <button onclick="setPersonagem('Nanako')" class="btn" id="btn9">Nanako Kashii</button>
+            <button onclick="setPersonagem('Maya')" class="btn" id="btn10">Maya Kihara</button><br>
+            <button onclick="setPersonagem('Yuri')" class="btn" id="btn11">Yuri Koigakubo</button>
+            <button onclick="setPersonagem('Koji')" class="btn" id="btn12">Koji Haruta</button>
         </div>
 
         <div id="dvTumbs">
@@ -53,7 +53,9 @@
         <div id="dvTexto">
             <h1 id="nome">Taiga Aisaka</h1>
             <p id="texto">
-                Dubladora: Rie Kugimiya<br>
+                <span>
+                    Voz de:Rie Kugimiya <br>
+                </span>
                 Taiga é a protagonista feminina da série, bem como uma colega de classe de Ryūji. Devido a sua baixa estatura e ferocidade, ela foi apelidada de "Tigresa de Bolso" (手乗りタイガー Te Nori Taigā?). Taiga fica chateada facilmente e é muito desajeitada, além de possuir uma personalidade <abbr title="Personalidade que altera entre amável e agressiva.">tsundere</abbr> . Devido à sua aparência fofa (descrita ser como uma boneca por Ryūji), ela frequentemente recebe muitas confissões amorosas de garotos, porém ela as rejeita.<br>
             
                 Apesar de vir de uma família rica, Taiga define sua vida com seus parentes bastante complicada, por causa de diversos problemas. Ela vivia com seu pai e sua madrasta, porém, constantemente, ela brigava com eles. Assim, ela resolveu sair de casa e começar a viver por conta própria. Por vir de uma família privilegiada, ela não sabe fazer nenhuma tarefa doméstica. Perto do fim da série, os negócios de sua pai vão à falência e ele foge, deixando-a sob os cuidados de sua mãe, que já se casou novamente e tem uma nova família, a qual Taiga tem dificuldade de se aproximar.<br>
@@ -65,5 +67,6 @@
             <p>Fonte: <a href="https://pt.wikipedia.org/wiki/Toradora!">https://pt.wikipedia.org/wiki/Toradora!</a></p>
         </footer>
     </section>
+    <script src="./JS/Indivi.js"></script>
 </body>
 </html>

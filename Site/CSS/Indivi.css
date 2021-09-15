@@ -1,3 +1,7 @@
+* {
+    font-family: 'Arial' !important;
+}
+
 header{
     position:absolute;
     top: 0;
@@ -50,14 +54,10 @@ header .navegation li a:hover{
     transform: translateY(-10px);
 }
 
-
-
 body{
     background-color: rgb(238, 88, 88);
     overflow-x: hidden;
 }
-
-
 
 #dvCabeça{
     width: auto;
@@ -73,7 +73,6 @@ body{
     top: 0px;
     color: rgb(228, 183, 183);
 }
-
 
 
 #botoes{
@@ -196,24 +195,34 @@ body{
 
 #dvTumbs{
     width: 700px;
-    height: 150px;
-    display: inline-block;
+    min-height: 150px;
+    max-height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     border: 1px solid black;
+
+    padding: 0 8px;
+
     margin-top: 15px;
     margin-left: 550px;
+
     border-radius: 10px;
-    text-align: center;
     background-color: rgba(194, 73, 73, 0.849);
 }
 #dvTumbs img{
     box-sizing: border-box;
     border: 2px solid black;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    margin-top: 15px;
-    width: 150px;
     cursor: pointer;
-    opacity: 0.6;
+    opacity: 0.7;
+    display: inline-block;
+
+    margin: 10px 4px;
+
+    max-width: 180px;   /* 230 - 150 */ /* 170 - 90 */
+    max-height: 100px;
 }
 #dvTumbs img:hover{
     transform: translateY(-10px);
@@ -222,19 +231,24 @@ body{
 }
 
 #dvAlbum{
+    margin: 15px 0 0 0;
     position: relative;
     border: 1px solid;
     border-radius: 10px;
-    margin-top: 15px;
     width: 700px;
-    height: 400px;
+    min-height: 400px;
+    max-height: 800px;
     margin-left: 550px;
     text-align: center;
     background-color: rgba(194, 73, 73, 0.849);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #dvAlbum img{
-    border: 2px solid;
-    margin-top: 15px;
+    border: 1px solid #000;
+
+    margin: 12px;
 }
 
 
