@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TORADORA - Contato</title>
     <link rel="stylesheet" href="./CSS/Contato.css">
+    <link rel="stylesheet" href="CSS/Header.css">
+    <link rel="stylesheet" href="CSS/GlobalStyles.css">
     <link rel="icon" type="image/png" href="./imagens/Screenshot_2021-04-17 tigre de bolso - Pesquisa Google.png">
     <script src="./JS/Contato.js"></script>
 </head>
@@ -16,7 +18,7 @@
                 <img src="./imagens/Screenshot_2021-04-17 tigre de bolso - Pesquisa Google.png " class="logo">
                 <p id="titulo">Contato</p>
                 <ul class="navegation">
-                    <li><a href="Home.htm">Home</a></li>
+                    <li><a href="Index.html">Home</a></li>
                     <li><a href="SaibaMais.htm">Saiba Mais</a></li>
                     <li><a href="Personagens.htm" >Personagens</a></li>
                     <li><a href="Contato.htm" id="impot">Contato</a></li>
@@ -33,13 +35,13 @@
                     <legend>Dados Pessoais</legend>
                     <div id="dadosPessoais">
                         <label>Nome:</label>
-                        <input type="text" name="nome" id="nome"><br>
+                        <input type="text" name="nome" id="nome" class="border-default br-5"><br>
 
                         <label>Email:</label>
-                        <input type="email" name="email" id="email"><br>
+                        <input type="email" name="email" id="email" class="border-default br-5"><br>
 
                         <label>Telefone:</label>
-                        <input type="tel" pattern="\([0,9]{2}\)[9]{1}[0,9]{3}-[0,9]{4}" placeholder="(xx) 9xxx-xxxx" maxlength="15" name="tel" id="tel">
+                        <input type="tel" pattern="\([0,9]{2}\)[9]{1}[0,9]{3}-[0,9]{4}" placeholder="(xx) 9xxx-xxxx" maxlength="15" name="tel" id="tel" class="border-default br-5">
                     </div>
                 </fieldset>
                 <fieldset>
@@ -49,16 +51,16 @@
                         <input name="a1" type="radio" value="Atualização">Atualização
                         <input name="a1" type="radio" value="Erro">Erro
                         <input name="a1" type="radio" value="Outros">Outros
-                        <button type="button" id="btn1" onclick="abrir()">Especificar?</button>
+                        <button type="button" id="btn1" onclick="abrir()" class="border-default br-5">Especificar?</button>
                         <button id="btn2" onclick="fechar()"> X </button><br>
-                        <textarea id="txt1" rows="1"></textarea>
+                        <textarea id="txt1" rows="1" class="border-default br-5"></textarea>
                     </div>
                 </fieldset>
                 <fieldset class="mBaixo">
-                    <legend>Menssagem</legend>
-                    <textarea></textarea>
+                    <legend>Mensagem</legend>
+                    <textarea class="border-default br-5"></textarea>
                 </fieldset>
-                <button type="submit" id="submit">Enviar</button>
+                <button type="submit" id="submit" class="border-default br-5">Enviar</button>
             </form>
         </div>
     </section>

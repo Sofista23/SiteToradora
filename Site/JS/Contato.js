@@ -6,6 +6,7 @@ function abrir(){
     b.style.display="inline"
     b.style.cursor="pointer"
 }
+
 function fechar(){
     var t=document.getElementById("txt1")
     t.style.display="none"

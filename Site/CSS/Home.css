@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +7,7 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 20pt;
 }
+
 section{
     position: relative;
     width: 100%;
@@ -18,6 +20,7 @@ section{
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
 section .circle{
     position: absolute;
     top: 0;
@@ -27,6 +30,7 @@ section .circle{
     height: 100%;
     clip-path:circle(70% at right 20%);
 }
+
 header{
     position:absolute;
     top: 0;
@@ -37,17 +41,21 @@ header{
     justify-content: space-between;
     align-items:top;
 }
+
 header .logo{
     position: relative;
     max-width: 120px;
 }
+
 header .navegation{
     position: relative;
     display: flex;
 }
+
 header .navegation li{
     list-style:none;
 }
+
 header .navegation li a{
     display: inline-block;
     color: black;
@@ -64,16 +72,16 @@ header .navegation li a{
     background-color: rgb(228, 183, 183);
     border-radius: 40px;
 }
+
 header .navegation li a#impot{
     background-color: rgb(136, 136, 187);
 }
+
 header .navegation li a:hover{
     background-color: white;
     transform: translateY(-10px);
 }
-p{
-    text-align:justify;
-}
+
 .content{
     position: relative;
     width: 100%;
@@ -81,11 +89,13 @@ p{
     justify-content: space-between;
     align-items: center;
 }
+
 .content .textBox{
     position: relative;
     max-width: 600px;
     margin-right: 20px;
 }
+
 .content .textBox h2{
     color:black;
     font-size:40pt;
@@ -93,9 +103,11 @@ p{
     line-height: 1.4em;
     font-weight: 700;
 }
+
 .content .textBox p{
     color:black;
 }
+
 .content .textBox a{
     display: inline-block;
     margin-top: 20px;
@@ -111,10 +123,12 @@ p{
     align-items: center;
     transition: 0.2s ease-in-out;
 }
+
 .content .textBox a:hover{
     background-color: white;
     transform: translateY(-10px);
 }
+
 .sci{
     position: fixed;
     bottom: 50px;
@@ -123,9 +137,11 @@ p{
     justify-content: bottom;
     align-items: center;
 }
+
 .sci li{
     list-style: none;
 }
+
 .sci li a{
     display: inline-block;
     margin-left: 15px;
@@ -138,14 +154,17 @@ p{
     border-radius: 50%;
     transition: 0.2s ease-in-out;
 }
+
 .sci li a:hover{
     background-color: gray;
     transform: translateY(-10px);
 }
+
 .sci li a img{
     filter: invert(1);
     transform: scale(0.5);
 }
+
 .swiper-container{
     width: 100%;
     height: 50%;
@@ -153,6 +172,7 @@ p{
     padding-bottom: 50px;
     padding-left: 10px;
 }
+
 .swiper-slide{
     background-position: center;
     background-size: cover;
@@ -161,45 +181,53 @@ p{
     display: flex;
     justify-content: top;
 }
+
 .content.imgBox{
     width: 400px;
     display: flex;
     justify-content: flex-end;
     align-items: top;
 }
+
 .content .imgBox img{
     max-width: 180px;
 }
+
 .swiper-slide img{
     position: absolute;
     bottom: 0;
     max-height: 100%;
 }
+
 .swiper-container-3d .swiper-slide-shadow-left,
 .swiper-container-3d .swiper-slide-shadow-right {
   background-image: none;
 }
+
 #dvVideo{
     margin-top: -250px;
     width: 800px;
 }
+
 #dvVideo #op1{
     margin-left: 100px;
 }
+
 #dvVideo #pOp1{
     margin-left: 120px;
 }
+
 #dvVideo #op2{
     margin-top: -400px;
     margin-bottom: -300px;
     margin-left: 300px;
 }
+
 #dvVideo #pOp2{
     margin-left: 320px;
 }
 
-
-
 p{
     text-indent: 20px;
+    text-align:justify;
 }
